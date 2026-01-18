@@ -1,0 +1,29 @@
+# robots.txt for ProfitAgentz
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Disallow crawling of any potential admin or private directories
+# (Add these if you have such directories)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Crawl-delay for polite crawling (optional)
+# Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://www.profitagentz.com/sitemap.xml
+
+# Block specific bad bots (optional - uncomment if needed)
+# User-agent: AhrefsBot
+# Disallow: /
+
+# User-agent: SemrushBot
+# Disallow: /
+
+# User-agent: MJ12bot
+# Disallow: /
+
+# User-agent: DotBot
+# Disallow: /

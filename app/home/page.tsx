@@ -98,8 +98,6 @@ const productStructuredData = {
 export default function Home() {
   return (
     <>
-    {/* <script src="https://cdn.tailwindcss.com"></script> */}
-    
       {/* Structured Data */}
       <script
         type="application/ld+json"
