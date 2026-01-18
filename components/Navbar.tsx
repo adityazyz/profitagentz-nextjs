@@ -164,7 +164,7 @@ const Navbar = () => {
               <Link
                 href="/contact"
                 onClick={() => setIsOpen(false)}
-                className="block w-full text-center py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg text-white transition-all duration-300 hover:shadow-xl active:scale-95 bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-500 hover:to-purple-400 shadow-lg shadow-purple-500/30 hover:shadow-purple-500/40"
+                className="block w-full text-center py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg text-white transition-all duration-300 hover:shadow-xl active:scale-95 bg-gradient-to-r from-purple-700 to-purple-600 hover:from-purple-600 hover:to-purple-500 shadow-lg shadow-purple-500/30 hover:shadow-purple-500/40"
               >
                 Get Custom Agent →
               </Link>

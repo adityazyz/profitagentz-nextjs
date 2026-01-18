@@ -112,13 +112,13 @@ const HomeContent: React.FC = () => {
 
   <div className={`absolute top-1/4 -left-20 w-[280px] h-[280px] sm:w-[380px] sm:h-[380px] rounded-full blur-[90px] sm:blur-[110px] ${
     isDark 
-      ? "bg-purple-400/30 opacity-30" 
-      : "bg-purple/30 opacity-40"
+      ? "bg-purple-400/30 opacity-60" 
+      : "bg-purple/30 opacity-50"
   }`} />
   <div className={`absolute bottom-1/4 -right-20 w-[280px] h-[280px] sm:w-[380px] sm:h-[380px] rounded-full blur-[90px] sm:blur-[110px] ${
     isDark 
-      ? "bg-purple-400/20 opacity-20" 
-      : "bg-purple/20 opacity-30"
+      ? "bg-purple-400/20 opacity-60" 
+      : "bg-purple/30 opacity-50"
   }`} />
   
   <div className="max-w-6xl mx-auto text-center fade-in px-3">
@@ -131,8 +131,8 @@ const HomeContent: React.FC = () => {
     </div>
     <h1 className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.05] tracking-tight mb-5 pb-2 sm:mb-7 bg-gradient-to-r bg-clip-text text-transparent ${
       isDark 
-        ? "from-purple-200 via-purple-300 to-purple-400" 
-        : "from-purple-900 via-purple-700 to-purple-500"
+        ? "from-purple-100 via-purple-200 to-purple-400" 
+        : "from-purple-900 via-purple-800 to-purple-500"
     }`}>
       Supercharge Profits <br className="hidden md:block" /> with AI Agents
     </h1>
@@ -204,11 +204,11 @@ const HomeContent: React.FC = () => {
               key={i}
               className={`text-lg sm:text-2xl md:text-3xl font-bold mx-6 sm:mx-9 uppercase tracking-tighter ${
                 isDark 
-                  ? "text-slate-300"  // Lighter gray for dark theme
-                  : "text-slate-400"  // Normal for light theme
+                  ? "text-slate-600"  // Lighter gray for dark theme
+                  : "text-slate-300"  // Normal for light theme
               }`}
             >
-              {spec} <span className={`ml-2 sm:ml-3 ${
+              {spec} <span className={`ml-2 font-black sm:ml-3 ${
                 isDark ? "text-purple-400" : "text-purple-600"
               }`}>•</span>
             </span>
